@@ -10,4 +10,4 @@ A lightweight, static, single-page app to browse cancer studies by tissue → ca
 
 ## 🚀 Quick start
 1. Clone or download this repo.
-2. Open index_public.html
+2. Open index.html
