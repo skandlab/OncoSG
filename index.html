@@ -632,9 +632,11 @@
     console.log(downloadFile);
     console.log(downloadUrl);
     const img = new Image();
+    const IMAGE_BASE = "https://raw.githubusercontent.com/skandlab/OncoSG/main/screenshots_public/";
+    const srcPath = `${IMAGE_BASE}${safeName}.png`;
     img.onload = () => {
         modalBody.innerHTML = `
-            <img src="${imagePath}" alt="Study Visualization" class="modal-image">
+            <img src="${srcPath}" alt="Study Visualization" class="modal-image">
         `;
     };
     img.onerror = () => {
